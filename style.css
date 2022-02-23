@@ -1,0 +1,352 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	background: rgba(0, 0, 0, 0.95);	
+}
+h1,h2,h3,p{
+	color: honeydew;
+}
+.bg-img{
+	background-image: url("https://astroneer.space/assets/img/astroneer-key-art.jpg");
+    background-size: cover;
+    background-repeat:  no-repeat;
+    height: 100vh;
+}
+section div a{
+	list-style-type: none;
+}
+section{
+	background-color: rgba(0, 0, 0, 0.83);
+	height: 100px;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+}
+section img{
+	width: 60px;
+}
+section{
+	display: flex;
+	justify-content: space-around;
+}
+nav ul li a{
+	text-decoration: none;
+	color: ghostwhite;
+	padding: 0 20px;
+}
+nav li{
+	margin: 0 15px;
+}
+nav ul{
+	display: flex;
+	list-style-type: none;
+	font-size: 22px;
+    text-transform: uppercase;  
+}
+nav ul , p{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+nav a:hover{
+	color: #9fa0a6;
+}
+
+
+article{
+	display: flex;
+	height: calc(100vh - 280px);
+	align-items: flex-end;
+	justify-content: space-around;
+}
+article button{
+	padding: 10px;
+	border: 1px solid #6179ff;
+	border-radius: 5px;
+	padding-bottom: 15px;
+}
+button p a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+button i{
+	padding: 5px;
+	font-size: 30px;
+}
+button{
+	background-color: #6198ff;
+	height: auto;
+}
+button:hover{
+	background-color: rgba(97, 168, 255, 0.3);
+	border: 1px solid #61a8ff;
+	transition: 0.9s;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    color: honeydew;
+    letter-spacing: 38px;
+    font-weight: 800;
+    font-size: 95px;
+    text-align: center;
+    padding-top: 1.4em;
+}
+
+.header2 h2{
+	padding: 50px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.header2{
+	text-align: center;
+}
+/* ----------description------ */
+.description{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px 0;
+}
+.description div{
+	border-left: 1px solid  rgb(114, 112, 112);
+	padding: 25px 23px 30px;
+	width: 29%;
+	background-color: rgba(24, 23, 23, 0.945);
+}
+.description h3{
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 5px;
+	font-size: 16px;
+}
+.description p{
+	font-family: monospace;
+}
+
+
+/*--------gallery------- */
+figure{
+	background-color: rgba(24, 23, 23, 0.945);
+	padding: 20px 0 50px;
+
+}
+figure h2{
+	padding: 22px 0 20px;
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 1px solid rgb(114, 112, 112);
+	width: 39%;
+	margin-left: 11.91%;
+}
+figure div{
+	padding: 20px;
+	padding-left: 175px;
+}
+
+
+/*------second container---------*/
+.sec-container{
+	display: flex;
+	justify-content: space-evenly;
+}
+.sec-container div{
+	width: 41%;
+	padding: 20px;
+}
+.sec-container ul li p{
+	list-style-type: none;
+	padding: 8px;
+}
+.sec-container h2{
+	padding: 20px;
+	padding-left: 0px;
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 1px solid rgb(114, 112, 112);
+	width: 93%;
+}
+.sec-container p{
+	padding: 15px;
+	padding-left: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	letter-spacing: 0.5px;
+	width: 97%;
+}
+
+
+/*----------requirements----------*/
+.requirements ul li{
+	color: honeydew;
+	list-style-type: none;
+	padding: 10px;
+	padding-left: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 14px;
+}
+.requirements p{
+	padding: 20px 0;
+}
+.requirements{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgba(24, 23, 23, 0.945);
+}
+.requirements div{
+	width: 33%;
+	padding: 20px;
+}
+.requirements h2{
+	padding: 22px;
+	padding-left: 0px;
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 1px solid rgb(114, 112, 112);
+	width: 93%;
+}
+.right-div{
+	margin-top: 70px;
+}
+/*------map---------*/
+.img-container{
+	/*background-color: #000;*/
+	color: honeydew;
+	width: 100%;
+	text-align: center;
+}
+.img-container p{
+	padding: 20px;
+	font-family: monospace;
+	font-size: 14px;
+}
+.first-img{
+	height: 600px;
+	width: 85%;
+}
+.img-container div{
+	margin-top: 80px;
+	width: 14%;
+	height:	calc(100vh - 145px);
+	transition: .3s linear;
+}
+.img-container div:hover{
+	width: 60%;
+	height: 550px;
+	margin-top: 14px;
+	padding-top: 40px;
+}
+.img-container{
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+.img-1{
+	background-image: url(https://www.naguide.com/wp-content/uploads/2019/01/astroneer-naguide.jpg);
+	background-size: cover;
+	background-position: left;
+}
+.img-2{
+	background-image: url(https://i.imgur.com/zJeLMcs.png);
+	background-size: cover;
+	background-position: right;
+}
+.img-3{
+	background-image: url(https://i.redd.it/yersx3ri0r7y.png);
+	background-size: cover;
+	background-position: left;
+}
+.img-4{
+	background-image: url(https://preview.redd.it/gfukbizesf151.png?width=640&crop=smart&auto=webp&s=9b3f3a419604a8f884dee1cd5ca5f2a4c8fdc9e0);
+	background-size: cover;
+	background-position: left;
+}
+.img-5{
+	background-image: url(https://www.immortalwordsmith.co.uk/wp-content/uploads/2021/02/20-02-2021_13-48-32-iqehzfxc-1024x575.png);
+	background-size: cover;
+}
+.img-6{
+	background-image: url(https://preview.redd.it/2d39befg63531.png?width=640&crop=smart&auto=webp&s=0a1c8048a7d089541cd7942d2180859e257b1635);
+	background-size: cover;
+	background-position: right;
+}
+
+/*---------last container-----------*/
+.last-container{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+.last-container div{
+	border-left: 2px solid  rgb(114, 112, 112);
+	padding: 25px 23px 27px;
+	width: 20%;
+	background-color: rgba(24, 23, 23, 0.945);
+	margin: 30px 0;
+}
+.last-container h3{
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+.last-container p{
+	font-family: monospace;
+	font-size: 14px;
+}
+
+
+/*--------footer---------*/
+footer{
+	color: #fff;
+	text-align: center;
+	height: calc(100vh - 255px);
+}
+.copyright{
+	font-family: monospace;
+	letter-spacing: 10px;
+}
+footer img{
+	padding: 20px;
+}
+
+.footer-contact a{
+	font-size: 16px;
+	color: honeydew;
+	font-family: monospace;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 50px;
+}
+.contact{
+	border-right: 1px solid white;
+}
+.footer-contact a:hover{
+	background-color: #292828;
+	font-weight: 800;
+	border: 1px solid rgb(114, 112, 112);
+	transition: 0.8s linear;
+}
+
+.fa-discord,.fa-instagram,.fa-youtube,.fa-twitch{
+	color: #fff;
+	font-size: 25px;
+	padding: 30px 10px;
+}
+.fa-instagram:hover{
+	color:  #bc2a8d;
+}
+.fa-youtube:hover{
+	color:  #c4302b;
+}
+.fa-twitch:hover{
+	color: #6441a5;
+}
+.fa-discord:hover{
+	color: #5865F2;
+	transition: 0.3s;
+} 
+.fa-copyright{
+	font-size: 10px;
+}
